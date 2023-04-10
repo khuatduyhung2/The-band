@@ -1,0 +1,69 @@
+@media (max-width: 740px) {
+    .nav > li{
+        display: block;
+    }
+    .header .icontimkiem{
+    display: none;}
+    .nav{
+        display: block;
+    }
+    .header .iconmenumb{
+        display: block;
+    }
+    .nav li:first-child{
+        display: inline-block;
+    }
+    .header{
+        overflow: hidden;
+    }
+    .nav .subnav{
+        position: initial;
+        background-color: rgb(85, 85, 85);
+    }
+    .nav .subnav a{
+        
+        padding: 0 40px;
+        font-size: 16px;
+        color: aliceblue;
+        }
+    .content .anhgioithieu{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        text-align: center;
+    }
+    .content .anhchinhmobi{
+        margin-top: 10px;
+        width: 100%;
+    }
+    .content .anhchinhmobi .anh{
+        width: 229px;
+    }
+    .tour .diadiem{
+        margin-top: 15px;
+    }
+    .tour .dd{
+        width: 100%;
+        margin-top: 15px;
+    }
+    .tour .doan4{
+        width: 100%;
+    }
+    .contact .headerctmb{
+        font-weight: 500;
+        width: 100%;
+        margin-top: 17px;
+    }
+    .contact .headerctmb2{
+        width: 100%;
+    }
+    
+    
+    .contact .send{
+        width: 100%;
+    }
+    .slider .phanchu{
+        display: none;
+    }
+}
